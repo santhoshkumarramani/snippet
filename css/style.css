@@ -1,0 +1,103 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	background-image: url(../image/image.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:0px -163px;;
+}
+.container{
+	display:flex;
+	margin: 81px 14px 0px 0px;
+    justify-content: space-evenly;
+}
+
+.map iframe {
+    width: 500px;
+    height: 350px;
+}
+.head h1{
+	font-size: 46px;
+    font-weight: 300;
+    font-family: 'Barlow', sans-serif;
+}
+.para1{
+	margin:11px 0px 0px 41px;
+}
+.para1 p{
+	font-size: 23px;
+	font-style: italic;
+    font-family: 'Rubik', sans-serif;
+	position:relative;
+}
+.para1 i{
+	position: absolute;
+    top: 147px;
+    left: 763px;
+    font-size: 22px;
+}
+.para5{
+	 margin: 15px 0px 0px 9px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #544545;
+}
+
+.para4{
+	    margin: 15px 0px 0px 9px;
+		color:gray;
+}
+.input{
+	margin: 10px 0px 0px 10px;
+	display:flex;
+	gap:4px;
+}
+.input1{
+	border:none;
+    height: 44px;
+    width: 221px;
+	padding:22px;
+	outline:none;
+}
+.input2{
+	border:none;
+    height: 44px;
+    width: 221px;
+	padding:22px;
+	outline:none;
+}
+.email{
+	    margin: 15px 0px 0px 9px;
+		color:gray;
+}
+.email1{
+	border:none;
+    height: 44px;
+    width: 444px;
+	padding:22px;
+	outline:none;
+} 
+.message{
+	margin: 15px 0px 0px 9px;
+	color:gray;
+}
+.message1{
+	border:none;
+    height: 99px;
+    width: 444px;
+	padding:22px;
+	outline:none;
+}
+button{
+	margin:25px 0px 0px 177px;
+	background-color: rgb(20,156,204);
+    padding: 12px 27px;
+    color: white;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+}
